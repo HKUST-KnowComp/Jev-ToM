@@ -12,7 +12,7 @@ python3 tools/verify_release.py
 
 The verifier checks distributed file hashes, question/key alignment, candidate-component mappings, retained reason-material membership, 108 primary benchmark cells, 12 benchmark-equal overall scores and the five-model feedback scores from 10,000 saved outcomes.
 
-`manifest.json` preserves the original 2026-10-10 data-export snapshot. The repository was prepared for local Git use on 2026-10-13 without changing those data or results. Archived input hashes identify the original research-workspace files, which are not required to use this standalone package. `SHA256SUMS.json` identifies the current distributed files, excluding itself and Git metadata.
+`manifest.json` preserves the original 2026-10-10 data-export snapshot. Archived input hashes identify the original research files, which are not required to use this standalone package. `SHA256SUMS.json` identifies the current distributed files, excluding itself and Git metadata.
 
 ## Score one model
 
@@ -45,7 +45,7 @@ This scorer consumes choices that have already passed the intended model-specifi
 | Statistical intervals and family resampling | Not implemented in this package |
 | Costs, latency and serving environment | Not reconstructed by this package |
 
-The manuscript's broader release inventory describes planned materials. This local repository does not claim to complete that inventory. Full provider attempt journals, private coordination records, credentials, model weights and original generation/review traces are not included. The tools make no model calls.
+The manuscript's broader release inventory describes planned materials. Coverage of this repository is listed above. Full provider attempt journals, credentials, model weights and original generation/review records are not included. The tools make no model calls.
 
 ## Figures
 

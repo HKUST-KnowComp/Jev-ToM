@@ -4,7 +4,7 @@
 
 Jev-ToM evaluates whether typed decision models can select among interpretations of a person's knowledge, beliefs, intentions and emotions. The study compares five typed models with seven generative baselines on nine Theory of Mind benchmarks, then examines confidence, supplied reasons, output validity and related decisions.
 
-This is the local repository prepared on **13 October 2026**. It packages the frozen questions, answer keys, reason materials and saved results described below. No public repository or arXiv record is claimed here.
+This repository provides frozen questions, answer keys, reason materials, saved predictions and offline scoring tools for Jev-ToM.
 
 [Quick start](#quick-start) · [Results](#benchmark-performance) · [Data](docs/DATASETS.md) · [Models](models/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md) · [Source terms](notices/README.md)
 
@@ -102,10 +102,8 @@ Jev has the highest benchmark-equal overall accuracy in this twelve-model primar
 
 Primary accuracies and feedback macros can be replayed from the supplied choices and keys. Capability and reason summaries are exact exports of saved results. The package does not include complete per-question reason outputs, confidence probabilities, candidate-load diagnostics, human annotation stages, family-resampling code or full provider attempt journals. It is not a model-serving environment. The [reproducibility guide](docs/REPRODUCIBILITY.md) distinguishes supplied replay from the broader planned release inventory.
 
-The original data-export manifest remains dated 10 October 2026. Local repository preparation retains those frozen data and scores, while adding documentation, figure previews and a standalone scorer.
+The data-export manifest records the frozen 10 October 2026 snapshot. The integrity file covers the distributed data, results, documentation, figures and scoring tools.
 
 ## Data and license notice
 
 The authors' original releasable contributions use [CC BY 4.0](LICENSE.md). Original benchmark questions, contexts, candidate answers, answer keys and model assets retain their own terms. The source notices preserve noncommercial and evaluation-only restrictions where recorded. Consult [the source-by-source records](notices/README.md) before use or redistribution.
-
-Repository organization was informed by [HKUST-KnowComp/MultivationBench](https://github.com/HKUST-KnowComp/MultivationBench), especially its benchmark overview, data guide, executable quick start and source-license separation. The content and results here concern Jev-ToM.
