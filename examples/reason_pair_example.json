@@ -1,0 +1,308 @@
+{
+  "purpose": "Readable inspection example containing input-only questions and separate answer keys",
+  "source_id": "bigtom/0_backward_belief_false_belief/010",
+  "questions": [
+    {
+      "id": "bigtom/0_backward_belief_false_belief/010/aligned/0",
+      "source_id": "bigtom/0_backward_belief_false_belief/010",
+      "source_dataset": "bigtom",
+      "family_id": "bigtom/010",
+      "state": "Aniket is a marine biologist studying coral reefs off the coast of India. Aniket needs to collect samples of coral to analyze the effects of climate change on the reef. Aniket spots a healthy-looking coral formation in a specific area of the reef. A sudden wave surge stirs up sediment, covering the once healthy coral formation and causing it to become damaged. Aniket collects samples from the healthy coral formation he found.",
+      "question": "Does Aniket believe the coral formation is healthy or damaged?\n\nEvaluation task: Select the single candidate whose answer AND attached reason are both best supported by the original story and the question. Evaluate the complete answer-and-reason pair: a correct answer with an incorrect reason, or a correct reason attached to an incorrect answer, is not a fully correct candidate. Reasons are claims to evaluate, not additional story facts. Select one of the supplied complete candidates.",
+      "options": [
+        "Answer: Aniket believes the coral formation is damaged.\nReason: Aniket may see the sediment covering the coral and recognize the formation has become damaged. He could collect samples while understanding that the reef has been harmed by the wave surge.",
+        "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy."
+      ],
+      "arm": "aligned",
+      "order": 0,
+      "original_option_count": 2,
+      "material_sha256": "a5fc7ac6365d63165dda9e59fbabf982566020f42670c3f81c4e36a8bdbc7c68",
+      "option_components": [
+        {
+          "answer_index": 1,
+          "reason_index": 1
+        },
+        {
+          "answer_index": 0,
+          "reason_index": 0
+        }
+      ]
+    },
+    {
+      "id": "bigtom/0_backward_belief_false_belief/010/aligned/1",
+      "source_id": "bigtom/0_backward_belief_false_belief/010",
+      "source_dataset": "bigtom",
+      "family_id": "bigtom/010",
+      "state": "Aniket is a marine biologist studying coral reefs off the coast of India. Aniket needs to collect samples of coral to analyze the effects of climate change on the reef. Aniket spots a healthy-looking coral formation in a specific area of the reef. A sudden wave surge stirs up sediment, covering the once healthy coral formation and causing it to become damaged. Aniket collects samples from the healthy coral formation he found.",
+      "question": "Does Aniket believe the coral formation is healthy or damaged?\n\nEvaluation task: Select the single candidate whose answer AND attached reason are both best supported by the original story and the question. Evaluate the complete answer-and-reason pair: a correct answer with an incorrect reason, or a correct reason attached to an incorrect answer, is not a fully correct candidate. Reasons are claims to evaluate, not additional story facts. Select one of the supplied complete candidates.",
+      "options": [
+        "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+        "Answer: Aniket believes the coral formation is damaged.\nReason: Aniket may see the sediment covering the coral and recognize the formation has become damaged. He could collect samples while understanding that the reef has been harmed by the wave surge."
+      ],
+      "arm": "aligned",
+      "order": 1,
+      "original_option_count": 2,
+      "material_sha256": "a5fc7ac6365d63165dda9e59fbabf982566020f42670c3f81c4e36a8bdbc7c68",
+      "option_components": [
+        {
+          "answer_index": 0,
+          "reason_index": 0
+        },
+        {
+          "answer_index": 1,
+          "reason_index": 1
+        }
+      ]
+    },
+    {
+      "id": "bigtom/0_backward_belief_false_belief/010/answer_only/0",
+      "source_id": "bigtom/0_backward_belief_false_belief/010",
+      "source_dataset": "bigtom",
+      "family_id": "bigtom/010",
+      "state": "Aniket is a marine biologist studying coral reefs off the coast of India. Aniket needs to collect samples of coral to analyze the effects of climate change on the reef. Aniket spots a healthy-looking coral formation in a specific area of the reef. A sudden wave surge stirs up sediment, covering the once healthy coral formation and causing it to become damaged. Aniket collects samples from the healthy coral formation he found.",
+      "question": "Does Aniket believe the coral formation is healthy or damaged?\n\nEvaluation task: Select the answer best supported by the original story and the question.",
+      "options": [
+        "Aniket believes the coral formation is healthy.",
+        "Aniket believes the coral formation is damaged."
+      ],
+      "arm": "answer_only",
+      "order": 0,
+      "original_option_count": 2,
+      "material_sha256": "a5fc7ac6365d63165dda9e59fbabf982566020f42670c3f81c4e36a8bdbc7c68",
+      "option_components": [
+        {
+          "answer_index": 0,
+          "reason_index": null
+        },
+        {
+          "answer_index": 1,
+          "reason_index": null
+        }
+      ]
+    },
+    {
+      "id": "bigtom/0_backward_belief_false_belief/010/answer_only/1",
+      "source_id": "bigtom/0_backward_belief_false_belief/010",
+      "source_dataset": "bigtom",
+      "family_id": "bigtom/010",
+      "state": "Aniket is a marine biologist studying coral reefs off the coast of India. Aniket needs to collect samples of coral to analyze the effects of climate change on the reef. Aniket spots a healthy-looking coral formation in a specific area of the reef. A sudden wave surge stirs up sediment, covering the once healthy coral formation and causing it to become damaged. Aniket collects samples from the healthy coral formation he found.",
+      "question": "Does Aniket believe the coral formation is healthy or damaged?\n\nEvaluation task: Select the answer best supported by the original story and the question.",
+      "options": [
+        "Aniket believes the coral formation is damaged.",
+        "Aniket believes the coral formation is healthy."
+      ],
+      "arm": "answer_only",
+      "order": 1,
+      "original_option_count": 2,
+      "material_sha256": "a5fc7ac6365d63165dda9e59fbabf982566020f42670c3f81c4e36a8bdbc7c68",
+      "option_components": [
+        {
+          "answer_index": 1,
+          "reason_index": null
+        },
+        {
+          "answer_index": 0,
+          "reason_index": null
+        }
+      ]
+    },
+    {
+      "id": "bigtom/0_backward_belief_false_belief/010/joint/0",
+      "source_id": "bigtom/0_backward_belief_false_belief/010",
+      "source_dataset": "bigtom",
+      "family_id": "bigtom/010",
+      "state": "Aniket is a marine biologist studying coral reefs off the coast of India. Aniket needs to collect samples of coral to analyze the effects of climate change on the reef. Aniket spots a healthy-looking coral formation in a specific area of the reef. A sudden wave surge stirs up sediment, covering the once healthy coral formation and causing it to become damaged. Aniket collects samples from the healthy coral formation he found.",
+      "question": "Does Aniket believe the coral formation is healthy or damaged?\n\nEvaluation task: Select the single candidate whose answer AND attached reason are both best supported by the original story and the question. Evaluate the complete answer-and-reason pair: a correct answer with an incorrect reason, or a correct reason attached to an incorrect answer, is not a fully correct candidate. Reasons are claims to evaluate, not additional story facts. Select one of the supplied complete candidates.",
+      "options": [
+        "Answer: Aniket believes the coral formation is damaged.\nReason: Aniket may see the sediment covering the coral and recognize the formation has become damaged. He could collect samples while understanding that the reef has been harmed by the wave surge.",
+        "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+        "Answer: Aniket believes the coral formation is damaged.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+        "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket may see the sediment covering the coral and recognize the formation has become damaged. He could collect samples while understanding that the reef has been harmed by the wave surge."
+      ],
+      "arm": "joint",
+      "order": 0,
+      "original_option_count": 2,
+      "material_sha256": "a5fc7ac6365d63165dda9e59fbabf982566020f42670c3f81c4e36a8bdbc7c68",
+      "option_components": [
+        {
+          "answer_index": 1,
+          "reason_index": 1
+        },
+        {
+          "answer_index": 0,
+          "reason_index": 0
+        },
+        {
+          "answer_index": 1,
+          "reason_index": 0
+        },
+        {
+          "answer_index": 0,
+          "reason_index": 1
+        }
+      ]
+    },
+    {
+      "id": "bigtom/0_backward_belief_false_belief/010/joint/1",
+      "source_id": "bigtom/0_backward_belief_false_belief/010",
+      "source_dataset": "bigtom",
+      "family_id": "bigtom/010",
+      "state": "Aniket is a marine biologist studying coral reefs off the coast of India. Aniket needs to collect samples of coral to analyze the effects of climate change on the reef. Aniket spots a healthy-looking coral formation in a specific area of the reef. A sudden wave surge stirs up sediment, covering the once healthy coral formation and causing it to become damaged. Aniket collects samples from the healthy coral formation he found.",
+      "question": "Does Aniket believe the coral formation is healthy or damaged?\n\nEvaluation task: Select the single candidate whose answer AND attached reason are both best supported by the original story and the question. Evaluate the complete answer-and-reason pair: a correct answer with an incorrect reason, or a correct reason attached to an incorrect answer, is not a fully correct candidate. Reasons are claims to evaluate, not additional story facts. Select one of the supplied complete candidates.",
+      "options": [
+        "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket may see the sediment covering the coral and recognize the formation has become damaged. He could collect samples while understanding that the reef has been harmed by the wave surge.",
+        "Answer: Aniket believes the coral formation is damaged.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+        "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+        "Answer: Aniket believes the coral formation is damaged.\nReason: Aniket may see the sediment covering the coral and recognize the formation has become damaged. He could collect samples while understanding that the reef has been harmed by the wave surge."
+      ],
+      "arm": "joint",
+      "order": 1,
+      "original_option_count": 2,
+      "material_sha256": "a5fc7ac6365d63165dda9e59fbabf982566020f42670c3f81c4e36a8bdbc7c68",
+      "option_components": [
+        {
+          "answer_index": 0,
+          "reason_index": 1
+        },
+        {
+          "answer_index": 1,
+          "reason_index": 0
+        },
+        {
+          "answer_index": 0,
+          "reason_index": 0
+        },
+        {
+          "answer_index": 1,
+          "reason_index": 1
+        }
+      ]
+    },
+    {
+      "id": "bigtom/0_backward_belief_false_belief/010/reason_only/0",
+      "source_id": "bigtom/0_backward_belief_false_belief/010",
+      "source_dataset": "bigtom",
+      "family_id": "bigtom/010",
+      "state": "Aniket is a marine biologist studying coral reefs off the coast of India. Aniket needs to collect samples of coral to analyze the effects of climate change on the reef. Aniket spots a healthy-looking coral formation in a specific area of the reef. A sudden wave surge stirs up sediment, covering the once healthy coral formation and causing it to become damaged. Aniket collects samples from the healthy coral formation he found.",
+      "question": "Does Aniket believe the coral formation is healthy or damaged?\n\nEvaluation task: Select the explanation that best supports the correct answer to the original question. Select an explanation from the supplied candidates, rather than returning a separate answer. Explanations are claims to evaluate, not additional story facts.",
+      "options": [
+        "Aniket may see the sediment covering the coral and recognize the formation has become damaged. He could collect samples while understanding that the reef has been harmed by the wave surge.",
+        "Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy."
+      ],
+      "arm": "reason_only",
+      "order": 0,
+      "original_option_count": 2,
+      "material_sha256": "a5fc7ac6365d63165dda9e59fbabf982566020f42670c3f81c4e36a8bdbc7c68",
+      "option_components": [
+        {
+          "answer_index": null,
+          "reason_index": 1
+        },
+        {
+          "answer_index": null,
+          "reason_index": 0
+        }
+      ]
+    },
+    {
+      "id": "bigtom/0_backward_belief_false_belief/010/reason_only/1",
+      "source_id": "bigtom/0_backward_belief_false_belief/010",
+      "source_dataset": "bigtom",
+      "family_id": "bigtom/010",
+      "state": "Aniket is a marine biologist studying coral reefs off the coast of India. Aniket needs to collect samples of coral to analyze the effects of climate change on the reef. Aniket spots a healthy-looking coral formation in a specific area of the reef. A sudden wave surge stirs up sediment, covering the once healthy coral formation and causing it to become damaged. Aniket collects samples from the healthy coral formation he found.",
+      "question": "Does Aniket believe the coral formation is healthy or damaged?\n\nEvaluation task: Select the explanation that best supports the correct answer to the original question. Select an explanation from the supplied candidates, rather than returning a separate answer. Explanations are claims to evaluate, not additional story facts.",
+      "options": [
+        "Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+        "Aniket may see the sediment covering the coral and recognize the formation has become damaged. He could collect samples while understanding that the reef has been harmed by the wave surge."
+      ],
+      "arm": "reason_only",
+      "order": 1,
+      "original_option_count": 2,
+      "material_sha256": "a5fc7ac6365d63165dda9e59fbabf982566020f42670c3f81c4e36a8bdbc7c68",
+      "option_components": [
+        {
+          "answer_index": null,
+          "reason_index": 0
+        },
+        {
+          "answer_index": null,
+          "reason_index": 1
+        }
+      ]
+    }
+  ],
+  "ground_truth": [
+    {
+      "gold_option_index": 1,
+      "gold_option_text": "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+      "original_gold_index": 0,
+      "scoring_target": "both_components",
+      "reason_key_basis": "reason attached to the benchmark reference answer during gold-informed construction",
+      "id": "bigtom/0_backward_belief_false_belief/010/aligned/0",
+      "source_dataset": "bigtom"
+    },
+    {
+      "gold_option_index": 0,
+      "gold_option_text": "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+      "original_gold_index": 0,
+      "scoring_target": "both_components",
+      "reason_key_basis": "reason attached to the benchmark reference answer during gold-informed construction",
+      "id": "bigtom/0_backward_belief_false_belief/010/aligned/1",
+      "source_dataset": "bigtom"
+    },
+    {
+      "gold_option_index": 0,
+      "gold_option_text": "Aniket believes the coral formation is healthy.",
+      "original_gold_index": 0,
+      "scoring_target": "answer_component",
+      "reason_key_basis": "reason attached to the benchmark reference answer during gold-informed construction",
+      "id": "bigtom/0_backward_belief_false_belief/010/answer_only/0",
+      "source_dataset": "bigtom"
+    },
+    {
+      "gold_option_index": 1,
+      "gold_option_text": "Aniket believes the coral formation is healthy.",
+      "original_gold_index": 0,
+      "scoring_target": "answer_component",
+      "reason_key_basis": "reason attached to the benchmark reference answer during gold-informed construction",
+      "id": "bigtom/0_backward_belief_false_belief/010/answer_only/1",
+      "source_dataset": "bigtom"
+    },
+    {
+      "gold_option_index": 1,
+      "gold_option_text": "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+      "original_gold_index": 0,
+      "scoring_target": "both_components",
+      "reason_key_basis": "reason attached to the benchmark reference answer during gold-informed construction",
+      "id": "bigtom/0_backward_belief_false_belief/010/joint/0",
+      "source_dataset": "bigtom"
+    },
+    {
+      "gold_option_index": 2,
+      "gold_option_text": "Answer: Aniket believes the coral formation is healthy.\nReason: Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+      "original_gold_index": 0,
+      "scoring_target": "both_components",
+      "reason_key_basis": "reason attached to the benchmark reference answer during gold-informed construction",
+      "id": "bigtom/0_backward_belief_false_belief/010/joint/1",
+      "source_dataset": "bigtom"
+    },
+    {
+      "gold_option_index": 1,
+      "gold_option_text": "Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+      "original_gold_index": 0,
+      "scoring_target": "reason_component",
+      "reason_key_basis": "reason attached to the benchmark reference answer during gold-informed construction",
+      "id": "bigtom/0_backward_belief_false_belief/010/reason_only/0",
+      "source_dataset": "bigtom"
+    },
+    {
+      "gold_option_index": 0,
+      "gold_option_text": "Aniket identifies a healthy coral formation and then collects samples from that formation after the sediment disturbance. The story does not say he notices the damage, so he continues to regard the coral as healthy.",
+      "original_gold_index": 0,
+      "scoring_target": "reason_component",
+      "reason_key_basis": "reason attached to the benchmark reference answer during gold-informed construction",
+      "id": "bigtom/0_backward_belief_false_belief/010/reason_only/1",
+      "source_dataset": "bigtom"
+    }
+  ]
+}

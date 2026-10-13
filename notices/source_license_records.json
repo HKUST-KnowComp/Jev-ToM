@@ -1,0 +1,172 @@
+{
+  "checked_date": "2026-10-07",
+  "purpose": "Source-license evidence for ARR asset disclosures. This records inspected notices and does not determine legal permission for every derivative or redistribution.",
+  "scope_caveat": "A repository license does not automatically establish that all benchmark data, third-party source material, or generated derivatives may be redistributed under that license. Repository-level and dataset-specific notices are distinguished below.",
+  "planned_release": {
+    "user_confirmed_license": "CC BY 4.0",
+    "user_confirmed_destination": "GitHub",
+    "status": "Planned future release, not a statement of existing publication",
+    "scope": "The planned license for the authors' own releasable contributions is distinct from upstream assets. Upstream notices, attribution requirements, noncommercial terms, evaluation-only requests, and any other applicable restrictions remain separately identified.",
+    "publication_performed_in_this_audit": false
+  },
+  "sources": [
+    {
+      "benchmark": "BigToM",
+      "source_repository": "cicl-stanford/procedural-evals-tom",
+      "frozen_revision": "fe647d680bddb69f738519313bed625f9e93b549",
+      "license_label": "MIT",
+      "license_scope": "repository",
+      "official_license_url": "https://github.com/cicl-stanford/procedural-evals-tom/blob/fe647d680bddb69f738519313bed625f9e93b549/LICENSE",
+      "local_evidence_paths": [
+        "vendor/bigtom/LICENSE",
+        "scripts/fetch_data.py"
+      ],
+      "verification": "Inspected locally saved license and frozen retrieval specification.",
+      "evaluation_only_notice": null,
+      "notes": "Standard MIT text refers to software and associated documentation. This record does not independently resolve rights in every dataset item."
+    },
+    {
+      "benchmark": "OpenToM",
+      "source_repository": "seacowx/OpenToM",
+      "frozen_revision": "3f22b66276b2d7ca5fe573c28c79cc0d077aafc5",
+      "license_label": "CC BY-NC 4.0",
+      "license_scope": "dataset",
+      "official_license_url": "https://github.com/seacowx/OpenToM/blob/3f22b66276b2d7ca5fe573c28c79cc0d077aafc5/LICENSE",
+      "official_dataset_notice_url": "https://github.com/seacowx/OpenToM",
+      "local_evidence_paths": [
+        "scripts/fetch_data.py"
+      ],
+      "verification": "Read frozen-revision LICENSE from official raw GitHub and current official README dataset description. The license text was not saved locally by this audit.",
+      "evaluation_only_notice": "The official README describes benchmarking use and states that the dataset shall not be used for training or fine-tuning. It also asks users to avoid services where submitted data may be used for LLM training.",
+      "notes": "Dataset description explicitly identifies Creative Commons Attribution-NonCommercial 4.0. The upstream noncommercial license is distinct from the authors' planned CC BY 4.0 release license."
+    },
+    {
+      "benchmark": "ToMBench",
+      "source_repository": "zhchen18/ToMBench",
+      "frozen_revision": "4f491f0784ed31ef93a8837615fbc48f885cf78d",
+      "license_label": "MIT",
+      "license_scope": "repository",
+      "official_license_url": "https://github.com/zhchen18/ToMBench/blob/4f491f0784ed31ef93a8837615fbc48f885cf78d/LICENSE",
+      "local_evidence_paths": [
+        "data/raw/arena-v0/tombench/LICENSE",
+        "data/raw/arena-v0/tombench/README.md",
+        "scripts/fetch_arena_data.py"
+      ],
+      "verification": "Inspected locally saved license and frozen retrieval specification.",
+      "evaluation_only_notice": "The frozen README states that ToMBench is for evaluation purposes only and asks users to avoid using its data for training in any circumstance to prevent contamination.",
+      "notes": "Standard MIT text refers to software and associated documentation. This record does not independently resolve rights in every dataset item.",
+      "official_dataset_notice_url": "https://github.com/zhchen18/ToMBench/blob/4f491f0784ed31ef93a8837615fbc48f885cf78d/README.md"
+    },
+    {
+      "benchmark": "SimpleToM",
+      "source_repository": "allenai/SimpleToM",
+      "source_host": "Hugging Face Datasets",
+      "frozen_revision": "3b97c11760855c83e033f8fef04f80c7e1f55f15",
+      "license_label": "ODC-BY",
+      "license_scope": "dataset",
+      "official_dataset_notice_url": "https://huggingface.co/datasets/allenai/SimpleToM/blob/3b97c11760855c83e033f8fef04f80c7e1f55f15/README.md",
+      "local_evidence_paths": [
+        "data/raw/arena-v0/simpletom/README.md",
+        "scripts/fetch_arena_data.py"
+      ],
+      "verification": "Inspected locally saved dataset-card metadata, which declares license: odc-by.",
+      "evaluation_only_notice": null,
+      "notes": "ODC-BY is the source dataset-card label. No Creative Commons label or version was inferred from it."
+    },
+    {
+      "benchmark": "FANToM",
+      "source_repository": "skywalker023/fantom",
+      "frozen_revision": "1cae6fa30f5ba04ca0fff5f5716b5ba7055e2e85",
+      "data_archive_revision": "1.0",
+      "data_archive_sha256": "1d08dfa0ea474c7f83b9bc7e3a7b466eab25194043489dd618b4c5223e1253a4",
+      "license_label": "MIT",
+      "license_scope": "repository",
+      "official_license_url": "https://github.com/skywalker023/fantom/blob/1cae6fa30f5ba04ca0fff5f5716b5ba7055e2e85/LICENSE",
+      "official_data_archive_url": "https://storage.googleapis.com/ai2-mosaic-public/projects/fantom/fantom.tar.gz",
+      "local_evidence_paths": [
+        "data/raw/arena-v0/fantom/LICENSE",
+        "data/raw/arena-v0/fantom/README.md",
+        "scripts/fetch_arena_data.py"
+      ],
+      "verification": "Inspected locally saved repository license and frozen retrieval specification, which separately identifies the data archive.",
+      "evaluation_only_notice": "The frozen README states that the samples in FANToM should only be used for evaluation purposes.",
+      "notes": "Standard MIT text refers to software and associated documentation. The repository license and separately hosted dataset archive are not silently treated as an independently verified dataset-license grant.",
+      "official_dataset_notice_url": "https://github.com/skywalker023/fantom/blob/1cae6fa30f5ba04ca0fff5f5716b5ba7055e2e85/README.md"
+    },
+    {
+      "benchmark": "ToMATO",
+      "source_repository": "nttmdlab-nlp/ToMATO",
+      "frozen_revision": "7b377f50c2e7833c476f79714bcc8418d8bb35a7",
+      "license_label": "META LLAMA 3 COMMUNITY LICENSE",
+      "license_scope": "dataset",
+      "separate_code_license_label": "NTT License",
+      "official_dataset_notice_url": "https://github.com/nttmdlab-nlp/ToMATO/blob/7b377f50c2e7833c476f79714bcc8418d8bb35a7/README.md",
+      "local_evidence_paths": [
+        "data/raw/arena-extension-v1/tomato/README.md",
+        "scripts/fetch_arena_extension.py"
+      ],
+      "verification": "Inspected locally saved README's Repository Contents and Licenses section, which separately labels dataset/ and code/.",
+      "evaluation_only_notice": "The README asks that the benchmark be used only for evaluation and not for fine-tuning models, to avoid test-set contamination.",
+      "notes": "The dataset notice is not a Creative Commons license. This record does not substitute a newer Llama license."
+    },
+    {
+      "benchmark": "CogToM",
+      "source_repository": "Beijing-AISI/CogToM",
+      "frozen_revision": "28c6781b6ea7d7ef7d491f61adc18f076f8b993c",
+      "license_label": "MIT",
+      "license_scope": "repository",
+      "official_license_url": "https://github.com/Beijing-AISI/CogToM/blob/28c6781b6ea7d7ef7d491f61adc18f076f8b993c/LICENSE",
+      "local_evidence_paths": [
+        "data/raw/arena-extension-v1/cogtom/README.md",
+        "scripts/fetch_arena_extension.py"
+      ],
+      "verification": "Read frozen-revision LICENSE from official raw GitHub. The license text was not saved locally by this audit.",
+      "evaluation_only_notice": null,
+      "notes": "The locally saved README describes companion code and benchmark data. Standard MIT text refers to software and associated documentation. This record does not independently resolve rights in every dataset item."
+    },
+    {
+      "benchmark": "Hi-ToM",
+      "source_repository": "ying-hui-he/Hi-ToM_dataset",
+      "frozen_revision": "4279d3f783ff4f3b9fcced2a2fec9f6328683f82",
+      "license_label": "Apache-2.0",
+      "license_scope": "repository",
+      "official_license_url": "https://github.com/ying-hui-he/Hi-ToM_dataset/blob/4279d3f783ff4f3b9fcced2a2fec9f6328683f82/LICENSE",
+      "local_evidence_paths": [
+        "data/raw/arena-extension-v1/hitom/README.md",
+        "scripts/fetch_arena_extension.py"
+      ],
+      "verification": "Read frozen-revision LICENSE from official raw GitHub. The license text was not saved locally by this audit.",
+      "evaluation_only_notice": null,
+      "notes": "Recorded as the repository license, without making an independent blanket determination about every data item or derivative."
+    },
+    {
+      "benchmark": "ToMi",
+      "source_repository": "shawnsihyunlee/simulatedtom",
+      "source_variant": "corrected fixedtomi/test_balanced.jsonl used through SimToM",
+      "frozen_revision": "15cfd30b33dcad4fe64ed160eb6eb2417f9c5387",
+      "license_label": "MIT",
+      "license_scope": "repository",
+      "official_license_url": "https://github.com/shawnsihyunlee/simulatedtom/blob/15cfd30b33dcad4fe64ed160eb6eb2417f9c5387/LICENSE",
+      "official_source_notice_url": "https://github.com/shawnsihyunlee/simulatedtom/blob/15cfd30b33dcad4fe64ed160eb6eb2417f9c5387/README.md",
+      "local_evidence_paths": [
+        "data/raw/arena-extension-v1/tomi/README.md",
+        "scripts/fetch_arena_extension.py"
+      ],
+      "verification": "Read frozen-revision LICENSE from official raw GitHub and inspected the locally saved README. The license text was not saved locally by this audit.",
+      "evaluation_only_notice": null,
+      "notes": "The license is for the SimToM retrieval repository. The README credits Sclar et al. for the corrected ToMi data. This is not an independently verified license grant for all original ToMi source material."
+    }
+  ],
+  "local_release_status_evidence": [
+    {
+      "path": "research/github-release-prep-2026-10-05/README.md",
+      "finding": "Describes an unpublished local aggregate-data release candidate and explicitly states that it implies no license grant for third-party benchmark text."
+    },
+    {
+      "path": "research/github-release-prep-2026-10-05/RELEASE_SCOPE.md",
+      "finding": "Records remaining full-material/reproducibility release work, preserving source notices and using upstream retrieval and identifiers where copying is not permitted."
+    }
+  ],
+  "notices_not_found_caveat": "A null evaluation_only_notice means no such notice was identified in the inspected evidence, not a finding that unrestricted use is authorized.",
+  "verification_scope": "Existing local records and the official source pages or frozen LICENSE texts already read in this audit. No new legal research, manuscript edit, model call, dataset modification, or publication was performed."
+}

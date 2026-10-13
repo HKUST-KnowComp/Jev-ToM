@@ -1,0 +1,5 @@
+{
+  "question_only_template": "\n\nRelated mental-state question:\n{upstream_question}",
+  "predicted_state_template": "\n\nRelated mental-state question:\n{upstream_question}\nEarlier answer selected by this model (may be incorrect):\n{upstream_selected_option_text}",
+  "flipped_state_template": "\n\nRelated mental-state question:\n{upstream_question}\nEarlier answer selected by this model (may be incorrect):\n{upstream_selected_option_text}"
+}

@@ -1,0 +1,13 @@
+model_id,model,n,valid,overall_accuracy_pct,aggregation
+typesafe/jev-1.13,Jev-1.13,11117,11117,73.21217331675828,equal_weight_mean_of_nine_benchmarks
+ZefanCai/Open-Jev-2B,Open-Jev-2B,11117,11117,56.601584119611715,equal_weight_mean_of_nine_benchmarks
+Valen-Team/Valen-Preview-0923,Valen,11117,11117,49.533248283175304,equal_weight_mean_of_nine_benchmarks
+lostargon/Tiny-Jev,Tiny-Jev,11117,11117,45.92784640146656,equal_weight_mean_of_nine_benchmarks
+IamBusy/OpenJev-0.6B,OpenJev-0.6B,11117,9316,43.18909575627552,equal_weight_mean_of_nine_benchmarks
+gpt-3.5-turbo-1106,GPT-3.5-1106,11117,11114,71.61776117431596,equal_weight_mean_of_nine_benchmarks
+gpt-5.6-luna,GPT-5.6-Luna,11117,11114,70.8518489699913,equal_weight_mean_of_nine_benchmarks
+gpt-4o-mini-2024-07-18,GPT-4o-mini,11117,11036,66.29346731877509,equal_weight_mean_of_nine_benchmarks
+deepseek/deepseek-v4-flash-0731,DeepSeek-V4-Flash,11117,11012,65.40497315033083,equal_weight_mean_of_nine_benchmarks
+gpt-4.1-nano-2025-04-14,GPT-4.1-nano,11117,11114,61.30507566287549,equal_weight_mean_of_nine_benchmarks
+meta-llama/llama-3.1-8b-instruct,Llama-3.1-8B,11117,11088,57.64163580506234,equal_weight_mean_of_nine_benchmarks
+HuggingFaceTB/SmolLM3-3B,SmolLM3-3B,11117,9962,48.69676021629496,equal_weight_mean_of_nine_benchmarks
