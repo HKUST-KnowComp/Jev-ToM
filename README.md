@@ -2,11 +2,13 @@
 
 **Jev-ToM: Evaluating Theory of Mind in Typed Decision Models**
 
+[Paper](https://arxiv.org/abs/2610.18610) · [PDF](https://arxiv.org/pdf/2610.18610)
+
 Jev-ToM evaluates whether typed decision models can select among interpretations of a person's knowledge, beliefs, intentions and emotions. The study compares five typed models with seven generative baselines on nine Theory of Mind benchmarks, then examines confidence, supplied reasons, output validity and related decisions.
 
 This repository provides frozen questions, answer keys, reason materials, saved predictions and offline scoring tools for Jev-ToM.
 
-[Quick start](#quick-start) · [Results](#benchmark-performance) · [Data](docs/DATASETS.md) · [Models](models/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md) · [Source terms](notices/README.md)
+[Quick start](#quick-start) · [Results](#benchmark-performance) · [Data](docs/DATASETS.md) · [Models](models/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md) · [Source terms](notices/README.md) · [Citation](#citation)
 
 ## Benchmark summary
 
@@ -107,3 +109,19 @@ The data-export manifest records the frozen 10 October 2026 snapshot. The integr
 ## Data and license notice
 
 The authors' original releasable contributions use [CC BY 4.0](LICENSE.md). Original benchmark questions, contexts, candidate answers, answer keys and model assets retain their own terms. The source notices preserve noncommercial and evaluation-only restrictions where recorded. Consult [the source-by-source records](notices/README.md) before use or redistribution.
+
+## Citation
+
+If you use Jev-ToM in your research, please cite:
+
+```bibtex
+@misc{chung2026jevtomevaluatingtheorymind,
+      title={Jev-ToM: Evaluating Theory of Mind in Typed Decision Models},
+      author={Kawai Chung and Chunkit Chan and Yuxuan Liu and Yauwai Yim and Xi Yang and Wenbin Hu and Huihao Jing and Chiu Yeung Tang and Changxuan Fan and Ki Sen Hung and Tsun On Kwok and Haoran Li},
+      year={2026},
+      eprint={2610.18610},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2610.18610},
+}
+```
